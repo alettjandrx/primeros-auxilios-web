@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title> PAGE 2 </title>
+  <style>     
+   #video-bg {
+    position: fixed;          
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    z-index: -1;  
+  }
+    
+    .recuadro {
+      background-color: white;        
+      border: 2px solid #333;         
+      border-radius: 10px;            
+      padding: 20px;                  
+      margin: 50px auto;              
+      width: 50%;                     
+      text-align: center;             
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .titulo {
+      font-size: 40px;
+      font-weight: bold;
+      color: #307FD1;
+      margin-bottom: 10px;
+    }
+
+    .subtitulo {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .contenido {
+      font-size: 20px;
+      color: #2c3e50;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%; /* proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin: 30px o; /* esto centra el contenedor */
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+  </style>
+</head>
+
+<body>
+<video id="video-bg" autoplay loop muted>
+    <source src="https://www.pexels.com/es-es/download/video/7423604/">
+    Tu navegador no soporta videos de fondo.
+  </video>
+
+ <div class="recuadro">
+    <div class="titulo">¿Cómo actuar ante una emergencia?</div>
+    <div class="subtitulo"><em><b>“La mejor herramienta en una emergencia es estar preparado.”</b></em></div>
+    <BR>
+    <div class="contenido">
+        <div style="text-align: center;">
+       <img style="width: 100%; max-width: 600px; height: auto; margin: 20px 0;"
+src="https://www.mapfre.com.pe/media/tecnicas-primeros-auxilios.jpg" alt="PRIMEROS AUXILIOS" />
+    </div>
+    <b>PASOS QUE DEBES TENER CLARO</b>
+    <ol>
+     <li> <b> Mantén la calma: </b> Respira hondo y evalúa la situación.
+     <li> <b> Seguridad primero: </b> No te pongas en peligro. Evalúa riesgos como electricidad, fuego, tráfico, animales peligrosos.
+     <li> <b> Evaluar a la víctima: </b>
+       <ul>
+         <li> Conciencia: Habla con la persona y toca suavemente sus hombros
+         <li> Respiración: observa el pecho, escucha y siente el aire exhalado.
+         <li> Pulso: si es posible, revisa la circulación (carótidas en adultos).
+       </ul>
+
+     <li> <b> Llamar a emergencias: </b> número local (ej. 911 en Panamá). Proporciona:
+       <ul>
+         <li> Ubicación exacta
+         <li> Edad y sexo de la persona.
+         <li> Qué sucedió
+         <li> Estado actual (consciente, respira, sangrado, etc.)
+       </ul>
+     <li> <b> Protege y tranquiliza a la persona: </b> Mantén abrigada y habla de manera calmada.
+    </ol>
+
+    <BR>
+
+<b>¿Cómo saber si es seguro actuar?</b>
+
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/uHJ3m0P_Kls?si=k4rFKd8HZNKWARdX" 
+          title="#PrimerosAuxilios ¿Cómo saber si es seguro ayudar?" frameborder="0" 
+          allowfullscreen>
+  </iframe>
+</div>
+
+
+  </div>
+</body>
+</html>

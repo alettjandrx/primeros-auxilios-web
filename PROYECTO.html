@@ -1,0 +1,75 @@
+<html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>PROYECTO INF 125B</title>
+ <style>
+  #video-bg {
+    position: fixed;          
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    z-index: -1;  
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;            
+  }
+
+
+  .recuadro {
+    border: 2px solid white;               
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 40px;
+    width: 60%;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  .recuadro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
+
+  .recuadro a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF0000;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    transition: 0.3s;
+  }
+
+  .recuadro a:hover {
+    background-color: #00554e;
+  }
+
+  </style>
+
+</head>
+
+<body>
+  <video id="video-bg" autoplay loop muted>
+    <source src="https://www.pexels.com/es-es/download/video/3086859/" type="video/mp4">
+    Tu navegador no soporta videos de fondo.
+  </video>
+
+  <div class="recuadro">
+    <h1>APRENDE A SALVAR VIDAS</h1>
+    <a href="https://es.wikipedia.org/wiki/Primeros_auxilios">
+      IR A LA GUÍA BÁSICA DE EMERGENCIAS
+    </a>
+  </div>
+</body>
+</html>
