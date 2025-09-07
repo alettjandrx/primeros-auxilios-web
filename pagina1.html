@@ -43,6 +43,45 @@
       line-height: 1.6;
       text-align: justify;
     }
+.boton-siguiente {
+    position: fixed;      
+    bottom: 20px;         
+    right: 20px;          
+    background-color: #e74c3c; 
+    color: white;          
+    padding: 12px 20px;    
+    border-radius: 8px;    
+    text-decoration: none;  
+    font-family: 'Cossette Titre', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    z-index: 10;           
+}
+
+.boton-siguiente:hover {
+    background-color: #c0392b; 
+}
+.boton-regresar {
+    position: fixed;       
+    bottom: 20px;          
+    left: 20px;            
+    background-color: #3498db; 
+    color: white;          
+    padding: 12px 20px;    
+    border-radius: 8px;    
+    text-decoration: none; 
+    font-family: 'Cossette Titre', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    z-index: 10;           
+}
+
+.boton-regresar:hover {
+    background-color: #2980b9; 
+}
+
   </style>
 </head>
 
@@ -80,6 +119,11 @@ src="https://images.pexels.com/photos/32961444/pexels-photo-32961444.jpeg" alt="
       <li>Aprender técnicas básicas de RCP y primeros auxilios en cursos certificados.
       <li>Nunca improvisar medicamentos ni tratamientos.
     </ul>
+
+<!-- Botones añadidos -->
+<a href="pagina2.html" class="boton-siguiente">Ir a la siguiente página →</a>
+<a href="index.html" class="boton-regresar">← Volver a la página principal</a>
+
   </div>
 </body>
 </html>
